@@ -34,10 +34,12 @@ class MyHomePage extends StatelessWidget {
             //   Center(child: Text("Top 10 Netflix")),
             GridView(
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: double.infinity,
-              childAspectRatio: 3 / 2,
-              crossAxisSpacing: 2,
-              mainAxisSpacing: 20),
+            maxCrossAxisExtent: double.infinity,
+            childAspectRatio: 5 / 4,
+            crossAxisSpacing: 2,
+            mainAxisSpacing: 5,
+          ),
+
           // physics: ScrollPhysics(),
           children: [
             Container(
@@ -47,7 +49,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                          width: 200,
+                          width: 500,
                           height: 200,
                           child: FittedBox(
                             fit: BoxFit.contain,
@@ -61,7 +63,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -74,7 +76,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -87,7 +89,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -100,7 +102,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -113,7 +115,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -126,7 +128,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -139,7 +141,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -152,7 +154,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
@@ -165,7 +167,7 @@ class MyHomePage extends StatelessWidget {
                     Column(
                       children: [
                         Container(
-                            width: 200,
+                            width: 500,
                             height: 200,
                             child: FittedBox(
                               fit: BoxFit.contain,
